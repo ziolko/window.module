@@ -1,7 +1,7 @@
 # Rationale
 There are dozens of module systems available. Almost all of them are build with the assumption
 that modules are loaded asynchronously. This is the case for big applications but the small ones
-are usually boundled into one big file with everything (JavaScript, CSS, HTML) inside.
+are usually boundled into a one big file with everything (JavaScript, CSS, HTML) inside.
 
 Once we have a boundle with everything we can load modules synchronously. This is what _window.module_ is for.
 
