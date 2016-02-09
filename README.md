@@ -77,7 +77,7 @@ You will need to add some dependencies to your package.json:
 Now add _window.module_ and the boundle file to the HTML file. Then ask for the main application module:
 ```html
 <script src="libs/window.module.js"></script>
-<script src="target/window.module.js"></script>
+<script src="target/boundle.js"></script>
 <script>window.module('Application')</script>
 ```
 
