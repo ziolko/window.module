@@ -7,6 +7,7 @@ Once we have a boundle with everything we can load modules synchronously. This i
 
 # Usage
 There are three things you can do with this library:
+
 1. Define a factory method for a module which can potentially depend on other modules.
 2. Define a constant which can't depend on other modules.
 3. Ask for a module from another module in a synchronous way.
