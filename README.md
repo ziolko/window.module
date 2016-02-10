@@ -107,6 +107,8 @@ Now add _window.module_ and the boundle file to the HTML file. Then ask for the 
         stack.push(name);
         resolved[name] = registry[name]();
         stack.pop();
+
+        return resolved[name];
     };
 
     window.module.define = function (name, factory) {

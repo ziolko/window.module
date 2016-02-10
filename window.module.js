@@ -21,6 +21,8 @@
         stack.push(name);
         resolved[name] = registry[name]();
         stack.pop();
+
+        return resolved[name];
     };
 
     window.module.define = function (name, factory) {
